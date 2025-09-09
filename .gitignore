@@ -1,0 +1,11 @@
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Power BI (opcional, suelen pesar)
+*.pbix
+*.pbit
+
+# Datos locales
+/data/**/*.csv
