@@ -1,0 +1,9 @@
+{
+	"name": "rg-e2e-retail-lab-df",
+	"location": "spaincentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e768a087-ce13-48b8-a1ec-3a83893c491f",
+		"tenantId": "79311039-2ee5-4134-a3a5-477d665fe6c3"
+	}
+}
