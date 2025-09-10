@@ -1,0 +1,43 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "product_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "subcategory",
+				"type": "nvarchar"
+			},
+			{
+				"name": "product_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "brand",
+				"type": "nvarchar"
+			},
+			{
+				"name": "unit_price",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "stg",
+			"table": "products"
+		}
+	}
+}
